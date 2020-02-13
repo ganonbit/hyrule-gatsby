@@ -4,10 +4,24 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // Of course you can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    title: "hyrule",
+    author: "ΔNDRΞW",
+    description: "alabama blood, texas heart. progressive. coder. gamer. music lover. foodie. 🖤zelda & penguins🖤",
+    siteUrl: "https://hyliancoder.com/",
+    social: [
+      {
+        name: "twitter",
+        url: "https://twitter.com/hyliancoder",
+      },
+      {
+        name: "linkedin",
+        url: "https://linkedin.com/in/hyliancoder",
+      },
+      {
+        name: "github",
+        url: "https://github.com/hyliancoder",
+      },
+    ],
   },
   plugins: [
     {
