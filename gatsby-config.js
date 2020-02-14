@@ -10,7 +10,7 @@ module.exports = {
     author: "@hyliancoder",
     siteDescription: "alabama blood, texas heart. progressive. coder. gamer. music lover. foodie. 🖤zelda & penguins🖤",
     siteUrl: "https://hyliancoder.com/",
-    siteImage: "https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/84269546_10162900818350481_6003901046110289920_o.jpg?_nc_cat=106&_nc_ohc=n3mH5TXp3YcAX-pqx9h&_nc_ht=scontent-dfw5-2.xx&oh=a98d5fec75539e2bc74f671407cf5a40&oe=5EC1A8BF",
+    siteImage: "./static/mejan2020.jpg",
     siteLanguage: "EN",
     social: [
       {
