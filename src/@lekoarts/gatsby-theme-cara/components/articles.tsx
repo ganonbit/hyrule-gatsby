@@ -6,12 +6,11 @@ import Content from "../elements/content"
 import SVG from "./svg"
 import { UpDown, UpDownWide } from "../styles/animations"
 // @ts-ignore
-import ProjectsMDX from "../sections/projects"
+import ArticlesMDX from "../sections/articles.mdx"
 
-const Projects = ({ offset }: { offset: number }) => (
+const Articles = ({ offset }: { offset: number }) => (
   <div>
     <Divider
-      bg="linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%)"
       sx={{ clipPath: `polygon(0 15%, 100% 25%, 100% 85%, 0 75%)` }}
       speed={-0.2}
       offset={1.1}
@@ -27,7 +26,7 @@ const Projects = ({ offset }: { offset: number }) => (
             h2: { gridColumn: `-1/1`, color: `white !important` },
           }}
         >
-          <ProjectsMDX />
+          <ArticlesMDX />
         </div>
       </Inner>
     </Content>
@@ -56,4 +55,4 @@ const Projects = ({ offset }: { offset: number }) => (
   </div>
 )
 
-export default Projects
+export default Articles

@@ -34,6 +34,14 @@ module.exports = {
       options: {},
     },
     {
+      resolve: `gatsby-source-ghost`,
+      options: {
+        apiUrl: process.env.GHOST_URL,
+        contentApiKey: process.env.GHOST_CONTENT_KEY,
+        version: `v2`
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: process.env.GOOGLE_ANALYTICS_ID,

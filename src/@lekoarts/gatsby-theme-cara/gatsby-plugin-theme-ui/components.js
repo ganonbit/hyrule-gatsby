@@ -1,11 +1,11 @@
 import React from "react"
-import ProjectCard from "../components/project-card"
+import ArticleCard from "../components/article-card"
 
 export default {
   // eslint-disable-next-line react/display-name
-  ProjectCard: ({ link, title, bg, children }) => (
-    <ProjectCard link={link} title={title} bg={bg}>
+  ArticleCard: ({ link, title, bg, children }) => (
+    <ArticleCard link={link} title={title} bg={bg}>
       {children}
-    </ProjectCard>
+    </ArticleCard>
   ),
 }
