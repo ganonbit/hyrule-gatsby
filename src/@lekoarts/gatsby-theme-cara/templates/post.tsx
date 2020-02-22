@@ -2,21 +2,8 @@ import React from "react"
 import { graphql } from "gatsby"
 import { Parallax } from "react-spring/renderprops-addons.cjs"
 import Layout from "../components/layout"
+import ArticleWrapper from "../components/article-wrapper"
 import Article from "../components/article"
-
-
-const Post = ({ data }) => {
-  const post = data.ghostPost
-  return (
-    <Layout>
-      <Parallax pages={2}>
-        <Article post={post} offset={.5} />
-      </Parallax>
-    </Layout>
-  )
-}
-
-export default Post
 
 export const postQuery = graphql`
   query($slug: String!) {
@@ -28,3 +15,20 @@ export const postQuery = graphql`
     }
   }
 `
+
+
+const Post = ({ data }) => {
+  const post = data.ghostPost
+  return (
+    <>
+    <Layout>
+      <Parallax pages={1}>
+        <ArticleWrapper offset={0}/>
+      </Parallax>
+    </Layout>
+    <Article post={post} />
+    </>
+  )
+}
+
+export default Post
