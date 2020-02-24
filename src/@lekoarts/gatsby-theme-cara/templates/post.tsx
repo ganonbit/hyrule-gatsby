@@ -25,8 +25,8 @@ const Post = ({ data }) => {
       <Parallax pages={1}>
         <ArticleWrapper offset={0}/>
       </Parallax>
+      <Article post={post} />
     </Layout>
-    <Article post={post} />
     </>
   )
 }
