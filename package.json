@@ -23,7 +23,7 @@
     "gatsby-plugin-netlify": "^2.3.13",
     "gatsby-plugin-offline": "^2.2.7",
     "gatsby-source-ghost": "^4.0.5",
-    "react": "^16.9.0",
+    "react": "^16.14.0",
     "react-dom": "^16.13.0"
   },
   "devDependencies": {
